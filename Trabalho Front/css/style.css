@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+}
+.imgBandeira,
+.rodape,
+.container_logo {
+    display: flex;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid #14492a;
+    background: #27ae60;
+    color: #fff;
+}
+nav a{
+color: #fff;
+    text-decoration: none;
+}
+.nossaHistoria,
+.containerTurismo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.containerAgroturismo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer{
+    background: #27ae60;
+}
+.containerFooter{
+    display: flex;
+    gap: 100px;
+}
+.info{
+    display: flex;
+}
+.container_Social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 35px;
+}
+.container_Social a,
+.rodape p,
+.info a,
+.info h3,
+.info span {
+    color: #fff;
+    text-decoration: none;
+}
+.rodape{
+    margin-top: 20px;
+}
+.gridTur{
+    display: flex;
+    align-items: center;
+}
